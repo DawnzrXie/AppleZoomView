@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFD54092330767E0069DC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD54082330767E0069DC35 /* AppDelegate.m */; };
+		CCFD540C2330767E0069DC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD540B2330767E0069DC35 /* ViewController.m */; };
+		CCFD54112330767F0069DC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFD54102330767F0069DC35 /* Assets.xcassets */; };
+		CCFD54142330767F0069DC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFD54122330767F0069DC35 /* LaunchScreen.storyboard */; };
+		CCFD54172330767F0069DC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD54162330767F0069DC35 /* main.m */; };
+		CCFD54212330767F0069DC35 /* AppleZoomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD54202330767F0069DC35 /* AppleZoomViewTests.m */; };
+		CCFD542C2330767F0069DC35 /* AppleZoomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD542B2330767F0069DC35 /* AppleZoomViewUITests.m */; };
+		CCFD543B233076F20069DC35 /* DawnXZRzoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD543A233076F20069DC35 /* DawnXZRzoomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFD541D2330767F0069DC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFD53FC2330767E0069DC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFD54032330767E0069DC35;
+			remoteInfo = AppleZoomView;
+		};
+		CCFD54282330767F0069DC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFD53FC2330767E0069DC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFD54032330767E0069DC35;
+			remoteInfo = AppleZoomView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCFD54042330767E0069DC35 /* AppleZoomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleZoomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD54072330767E0069DC35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCFD54082330767E0069DC35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCFD540A2330767E0069DC35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCFD540B2330767E0069DC35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCFD54102330767F0069DC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCFD54132330767F0069DC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCFD54152330767F0069DC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD54162330767F0069DC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCFD541C2330767F0069DC35 /* AppleZoomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleZoomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD54202330767F0069DC35 /* AppleZoomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleZoomViewTests.m; sourceTree = "<group>"; };
+		CCFD54222330767F0069DC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD54272330767F0069DC35 /* AppleZoomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleZoomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD542B2330767F0069DC35 /* AppleZoomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleZoomViewUITests.m; sourceTree = "<group>"; };
+		CCFD542D2330767F0069DC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD5439233076F20069DC35 /* DawnXZRzoomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DawnXZRzoomView.h; sourceTree = "<group>"; };
+		CCFD543A233076F20069DC35 /* DawnXZRzoomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DawnXZRzoomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFD54012330767E0069DC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD54192330767F0069DC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD54242330767F0069DC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFD53FB2330767E0069DC35 = {
+			isa = PBXGroup;
+			children = (
+				CCFD54062330767E0069DC35 /* AppleZoomView */,
+				CCFD541F2330767F0069DC35 /* AppleZoomViewTests */,
+				CCFD542A2330767F0069DC35 /* AppleZoomViewUITests */,
+				CCFD54052330767E0069DC35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFD54052330767E0069DC35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD54042330767E0069DC35 /* AppleZoomView.app */,
+				CCFD541C2330767F0069DC35 /* AppleZoomViewTests.xctest */,
+				CCFD54272330767F0069DC35 /* AppleZoomViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFD54062330767E0069DC35 /* AppleZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD54072330767E0069DC35 /* AppDelegate.h */,
+				CCFD54082330767E0069DC35 /* AppDelegate.m */,
+				CCFD540A2330767E0069DC35 /* ViewController.h */,
+				CCFD540B2330767E0069DC35 /* ViewController.m */,
+				CCFD5439233076F20069DC35 /* DawnXZRzoomView.h */,
+				CCFD543A233076F20069DC35 /* DawnXZRzoomView.m */,
+				CCFD54102330767F0069DC35 /* Assets.xcassets */,
+				CCFD54122330767F0069DC35 /* LaunchScreen.storyboard */,
+				CCFD54152330767F0069DC35 /* Info.plist */,
+				CCFD54162330767F0069DC35 /* main.m */,
+			);
+			path = AppleZoomView;
+			sourceTree = "<group>";
+		};
+		CCFD541F2330767F0069DC35 /* AppleZoomViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD54202330767F0069DC35 /* AppleZoomViewTests.m */,
+				CCFD54222330767F0069DC35 /* Info.plist */,
+			);
+			path = AppleZoomViewTests;
+			sourceTree = "<group>";
+		};
+		CCFD542A2330767F0069DC35 /* AppleZoomViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD542B2330767F0069DC35 /* AppleZoomViewUITests.m */,
+				CCFD542D2330767F0069DC35 /* Info.plist */,
+			);
+			path = AppleZoomViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFD54032330767E0069DC35 /* AppleZoomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD54302330767F0069DC35 /* Build configuration list for PBXNativeTarget "AppleZoomView" */;
+			buildPhases = (
+				CCFD54002330767E0069DC35 /* Sources */,
+				CCFD54012330767E0069DC35 /* Frameworks */,
+				CCFD54022330767E0069DC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleZoomView;
+			productName = AppleZoomView;
+			productReference = CCFD54042330767E0069DC35 /* AppleZoomView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFD541B2330767F0069DC35 /* AppleZoomViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD54332330767F0069DC35 /* Build configuration list for PBXNativeTarget "AppleZoomViewTests" */;
+			buildPhases = (
+				CCFD54182330767F0069DC35 /* Sources */,
+				CCFD54192330767F0069DC35 /* Frameworks */,
+				CCFD541A2330767F0069DC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFD541E2330767F0069DC35 /* PBXTargetDependency */,
+			);
+			name = AppleZoomViewTests;
+			productName = AppleZoomViewTests;
+			productReference = CCFD541C2330767F0069DC35 /* AppleZoomViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCFD54262330767F0069DC35 /* AppleZoomViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD54362330767F0069DC35 /* Build configuration list for PBXNativeTarget "AppleZoomViewUITests" */;
+			buildPhases = (
+				CCFD54232330767F0069DC35 /* Sources */,
+				CCFD54242330767F0069DC35 /* Frameworks */,
+				CCFD54252330767F0069DC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFD54292330767F0069DC35 /* PBXTargetDependency */,
+			);
+			name = AppleZoomViewUITests;
+			productName = AppleZoomViewUITests;
+			productReference = CCFD54272330767F0069DC35 /* AppleZoomViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFD53FC2330767E0069DC35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DawnXZR;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = dawn;
+				TargetAttributes = {
+					CCFD54032330767E0069DC35 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CCFD541B2330767F0069DC35 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CCFD54032330767E0069DC35;
+					};
+					CCFD54262330767F0069DC35 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CCFD54032330767E0069DC35;
+					};
+				};
+			};
+			buildConfigurationList = CCFD53FF2330767E0069DC35 /* Build configuration list for PBXProject "AppleZoomView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFD53FB2330767E0069DC35;
+			productRefGroup = CCFD54052330767E0069DC35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFD54032330767E0069DC35 /* AppleZoomView */,
+				CCFD541B2330767F0069DC35 /* AppleZoomViewTests */,
+				CCFD54262330767F0069DC35 /* AppleZoomViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFD54022330767E0069DC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD54142330767F0069DC35 /* LaunchScreen.storyboard in Resources */,
+				CCFD54112330767F0069DC35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD541A2330767F0069DC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD54252330767F0069DC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFD54002330767E0069DC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD540C2330767E0069DC35 /* ViewController.m in Sources */,
+				CCFD54172330767F0069DC35 /* main.m in Sources */,
+				CCFD543B233076F20069DC35 /* DawnXZRzoomView.m in Sources */,
+				CCFD54092330767E0069DC35 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD54182330767F0069DC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD54212330767F0069DC35 /* AppleZoomViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD54232330767F0069DC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD542C2330767F0069DC35 /* AppleZoomViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCFD541E2330767F0069DC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFD54032330767E0069DC35 /* AppleZoomView */;
+			targetProxy = CCFD541D2330767F0069DC35 /* PBXContainerItemProxy */;
+		};
+		CCFD54292330767F0069DC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFD54032330767E0069DC35 /* AppleZoomView */;
+			targetProxy = CCFD54282330767F0069DC35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCFD54122330767F0069DC35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFD54132330767F0069DC35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFD542E2330767F0069DC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCFD542F2330767F0069DC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFD54312330767F0069DC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M8HPKV48T;
+				INFOPLIST_FILE = AppleZoomView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawn.AppleZoomView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCFD54322330767F0069DC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M8HPKV48T;
+				INFOPLIST_FILE = AppleZoomView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawn.AppleZoomView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCFD54342330767F0069DC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleZoomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawn.AppleZoomViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleZoomView.app/AppleZoomView";
+			};
+			name = Debug;
+		};
+		CCFD54352330767F0069DC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleZoomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawn.AppleZoomViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleZoomView.app/AppleZoomView";
+			};
+			name = Release;
+		};
+		CCFD54372330767F0069DC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleZoomViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawn.AppleZoomViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleZoomView;
+			};
+			name = Debug;
+		};
+		CCFD54382330767F0069DC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleZoomViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawn.AppleZoomViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleZoomView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFD53FF2330767E0069DC35 /* Build configuration list for PBXProject "AppleZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD542E2330767F0069DC35 /* Debug */,
+				CCFD542F2330767F0069DC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFD54302330767F0069DC35 /* Build configuration list for PBXNativeTarget "AppleZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD54312330767F0069DC35 /* Debug */,
+				CCFD54322330767F0069DC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFD54332330767F0069DC35 /* Build configuration list for PBXNativeTarget "AppleZoomViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD54342330767F0069DC35 /* Debug */,
+				CCFD54352330767F0069DC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFD54362330767F0069DC35 /* Build configuration list for PBXNativeTarget "AppleZoomViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD54372330767F0069DC35 /* Debug */,
+				CCFD54382330767F0069DC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFD53FC2330767E0069DC35 /* Project object */;
+}
