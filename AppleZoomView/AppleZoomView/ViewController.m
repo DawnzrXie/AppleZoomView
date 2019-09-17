@@ -79,7 +79,12 @@
 
 }
 
-#pragma mark --
+#pragma mark - 转动手势
+-(void)zhuanPgr:(UIPanGestureRecognizer *)pgr
+{
+    [self.zoomView zhuanPgr:pgr];
+}
+
 //共存  A手势或者B手势 返回YES，就能共存
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     return YES;
