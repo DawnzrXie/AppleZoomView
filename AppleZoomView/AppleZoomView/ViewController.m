@@ -30,9 +30,7 @@
 
 - (void)configurationUI {
     
-    UIImageView *bgImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"video_bg"]];
-    bgImageView.frame = self.view.bounds;
-    [self.view addSubview:bgImageView];
+    self.view.backgroundColor = [UIColor cyanColor];
     
     
     CGFloat bottomView_h = ([ViewController safeAreaInset].top > 0 ? 100 : 80);
